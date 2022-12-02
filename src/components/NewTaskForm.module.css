@@ -1,0 +1,43 @@
+.newTask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: calc(-1.75rem);
+  width: 100%;
+}
+
+.input {
+  padding: 1rem;
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  color: var(--gray-300);
+  width: 100%;
+}
+
+.createButton {
+  cursor: pointer;
+
+  padding: 1rem;
+  background-color: var(--blue-dark);
+  border: 0;
+  color: var(--gray-100);
+  border-radius: 8px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+
+  transition: background-color 0.1s;
+
+}
+
+
+.createButton:hover {
+  background-color: var(--purple);
+}
+
+.createButton svg {
+  margin-left: 0.4rem;
+  padding: 0;
+}
